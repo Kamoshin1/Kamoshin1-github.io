@@ -1,0 +1,30 @@
+
+body, h1, h3 {
+      background-color: #03244d;
+      text-align: center;
+      
+      
+    }
+#title {
+    color: #dd550c;
+    font-family: "Ultra", serif;
+    font-weight: bold;
+}   
+    
+
+   
+iframe  {
+    height: 90%;
+    width:  90%;
+    display: block;
+    margin: 0px auto 30px auto;
+    border-color: #dd550c;
+    border-width: 5px;
+   }
+
+    
+
+body {
+    background-image: url("AU-small-4.png");
+   
+}
