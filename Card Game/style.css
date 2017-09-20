@@ -1,0 +1,15 @@
+.btn  {
+	visibility: hidden;
+}
+
+#isBlackButton, #notBlackButton  {
+	visibility: visible;
+}
+
+ul li {
+	display: inline;
+}
+
+body  {
+	margin: auto; 20%;
+}
