@@ -123,7 +123,7 @@
             for (i = 0; i < x.length; i++) {
                 x[i].style.visibility = "hidden";
                 var q = document.getElementById("question");
-                q.innerHTML = "Looks like your card is an Ace!";
+                q.innerHTML = "It looks like your card is an Ace!";
                 var b = document.getElementById("isAceButton").style.visibility = 'hidden';
                // var c = document.getElementById("isAceButton").style.visibility = 'visible';
                 var b = document.getElementById("notAceButton").style.visibility = 'hidden';
@@ -149,7 +149,7 @@
             for (i = 0; i < x.length; i++) {
                 x[i].style.visibility = "hidden";
                 var q = document.getElementById("question");
-                q.innerHTML = "Is your card a King!?";
+                q.innerHTML = "Is your card a King?";
             var b = document.getElementById("isMaleButton").style.visibility = 'hidden';
             var c = document.getElementById("isKingButton").style.visibility = 'visible';
             var b = document.getElementById("notMaleButton").style.visibility = 'hidden';
@@ -272,7 +272,7 @@
             for (i = 0; i < x.length; i++) {
                 x[i].style.visibility = "hidden";
                 var q = document.getElementById("question");
-                q.innerHTML = "It looks like your card is a 6?";
+                q.innerHTML = "It looks like your card is a 6!";
                 var b = document.getElementById("isGreaterThanFiveButton").style.visibility = 'hidden';
                 // var c = document.getElementById("isGreaterThanThreeButton").style.visibility = 'visible';
                 var b = document.getElementById("notGreaterThanFiveButton").style.visibility = 'hidden';
@@ -370,9 +370,9 @@
                 x[i].style.visibility = "hidden";
                 var q = document.getElementById("question");
                 q.innerHTML = "It looks like your card is a 5!";
-                var b = document.getElementById("isGreaterThanSixButton").style.visibility = 'hidden';
+                var b = document.getElementById("isGreaterThanFourButton").style.visibility = 'hidden';
                 // var c = document.getElementById("isGreaterThanEightButton").style.visibility = 'visible';
-                var b = document.getElementById("notGreaterThanSixButton").style.visibility = 'hidden';
+                var b = document.getElementById("notGreaterThanFourButton").style.visibility = 'hidden';
                 // var c = document.getElementById("notGreaterThanEightButton").style.visibility = 'visible';
             }
         }
@@ -384,9 +384,9 @@
                 x[i].style.visibility = "hidden";
                 var q = document.getElementById("question");
                 q.innerHTML = "It looks like your card is a 3!";
-                var b = document.getElementById("isGreaterThanSixButton").style.visibility = 'hidden';
+                var b = document.getElementById("isGreaterThanFourButton").style.visibility = 'hidden';
                 // var c = document.getElementById("isGreaterThanFourButton").style.visibility = 'visible';
-                var b = document.getElementById("notGreaterThanSixButton").style.visibility = 'hidden';
+                var b = document.getElementById("notGreaterThanFourButton").style.visibility = 'hidden';
                 // var c = document.getElementById("notGreaterThanFourButton").style.visibility = 'visible';
             }
         }
