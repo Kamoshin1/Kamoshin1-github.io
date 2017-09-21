@@ -2,7 +2,7 @@ body  {
 	text-align: center;
 	padding: 10%;
 	border-style: solid;
-	border-color: black;
+	border-color: white;
 	border-weight: 10px;
     	background: #7fffd4;
 	background: #277714;
@@ -11,6 +11,12 @@ body  {
 
 .btn  {
 	visibility: hidden;
+	color: black;
+border: solid;
+border-color: black;
+border-width: 2px;
+font-weight: bold;
+background-color: #CFD1D1;
 }
 
 #isBlackButton, #notBlackButton  {
@@ -37,4 +43,12 @@ div  {
 
 .red {
 	color: red;
+}
+.red, .black  {
+	text-shadow: 1.5px 1.5px 2px #BBBCBD;
+}
+
+#Name  {
+	padding-bottom: 2%;
+	text-shadow: 1.5px 1.5px 2px #555657;
 }
