@@ -1,7 +1,11 @@
 body  {
 	text-align: center;
 	padding: 10%;
-    	
+	border-style: solid;
+	border-color: black;
+	border-weight: 10px;
+    	background: #7fffd4;
+	background: #277714;
 }
 
 
@@ -19,7 +23,18 @@ ul li {
 
 
 
-div  {
+div  {	
+	
 	background: #277714;
+	background: #7fffd4;
+	background: #F5E99D;
 	font-weight: 900;
+	border-style: solid;
+	border-color: black;
+	border-weight: 10px;
+
+}
+
+.red {
+	color: red;
 }

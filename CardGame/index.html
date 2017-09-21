@@ -10,76 +10,83 @@
        </script>-->
       <script type ="text/javascript"  src="Card_Game.js"></script>
       <link rel="stylesheet" href="style.css" type="text/css" />
+      <title>Card Game</title>
   </head>
 <body>
+<div id="Instructions">
+Welcome to the Card Guesser Game!  The cards below represent the standard cards in a 52 card deck of playing cards.  They use the notation of
+"Card Number - Suit initial."  Select a card from the list.  Answer the following Yes or No questions until Card Guesser can tell you your card.  
+To start again, click the browser Refresh button.
+</div>
 <div id="content">
+<h2>
 <ul>
-<li id="AceOfSpades" class= "spades black not-face not-number ace">A Sp<li>
-<li id="KingOfSpades" class="spades black face-card not-number not-ace male king">K Sp<li>
-<li id="QueenOfSpades" class="spades black face-face not-number not-ace not-male">Q Sp<li> 
-<li id="JackOfSpades" class="spades black face-card not-number not-ace male not-king">J Sp<li>
-<li id="TenOfSpades" class="spades black not-face number even greater-than-five greater-than-seven greater-than-nine">10 Sp<li>
-<li id="NineOfSpades" class="spades black not-face number odd greater-than-six greater-than-eight">9 Sp<li>
-<li id="EightnOfSpades" class="spades black not-face number even greater-than-five greater-than-seven not-greater-than-nine">8 Sp<li> 
-<li id="SevenOfSpades" class="spades black not-face number odd greater-than-six not-greater-than-eight">7 Sp<li>
-<li id="SixOfSpades" class="spades black not-face number even greater-than-five not-greater-than-seven">6 Sp<li>
-<li id="FiveOfSpades" class="spades black not-face number odd not-greater-than-six greater-than-four">5 Sp<li>
-<li id="FourOfSpades" class="spades black not-face number not-greater-than-five even greater-than-three">4 Sp<li> 
-<li id="ThreeOfSpades" class="spades black not-face number odd not-greater-than-six not-greater-than-four">3 Sp<li>
-<li id="TwoOfSpades" class="spades black not-face number not-greater-than-five even not-greater-than-three">2 Sp<li> 
+<li id="AceOfSpades" class= "spades black not-face not-number ace">A-S<li>
+<li id="KingOfSpades" class="spades black face-card not-number not-ace male king">K-S<li>
+<li id="QueenOfSpades" class="spades black face-face not-number not-ace not-male">Q-S<li> 
+<li id="JackOfSpades" class="spades black face-card not-number not-ace male not-king">J-S<li>
+<li id="TenOfSpades" class="spades black not-face number even greater-than-five greater-than-seven greater-than-nine">10-S<li>
+<li id="NineOfSpades" class="spades black not-face number odd greater-than-six greater-than-eight">9-S<li>
+<li id="EightnOfSpades" class="spades black not-face number even greater-than-five greater-than-seven not-greater-than-nine">8-S<li> 
+<li id="SevenOfSpades" class="spades black not-face number odd greater-than-six not-greater-than-eight">7-S<li>
+<li id="SixOfSpades" class="spades black not-face number even greater-than-five not-greater-than-seven">6-S<li>
+<li id="FiveOfSpades" class="spades black not-face number odd not-greater-than-six greater-than-four">5-S<li>
+<li id="FourOfSpades" class="spades black not-face number not-greater-than-five even greater-than-three">4-S<li> 
+<li id="ThreeOfSpades" class="spades black not-face number odd not-greater-than-six not-greater-than-four">3-S<li>
+<li id="TwoOfSpades" class="spades black not-face number not-greater-than-five even not-greater-than-three">2-S<li> 
   </ul>
 
 <ul>
-<li id="Li1" class="not-spade black not-face not-number ace">A C<li>
-<li id="Li2" class="not-spade black face-card not-number not-ace male king">K C<li>
-<li id="Li3" class="not-spade black face-face not-number not-ace not-male">Q C<li> 
-<li id="Li4" class="not-spade black face-card not-number not-ace male not-king">J C<li>
-<li id="Li5" class="not-spade black not-face number even greater-than-five greater-than-seven greater-than-nine">10 C<li>
-<li id="Li6" class="not-spade black not-face number odd greater-than-six greater-than-eight">9 C<li>
-<li id="Li7" class="not-spade black not-face number even greater-than-five greater-than-seven not-greater-than-nine">8 C<li> 
-<li id="Li8" class="not-spade black not-face number odd greater-than-six not-greater-than-eight">7 C<li>
-<li id="Li9" class="not-spade black not-face number even greater-than-five not-greater-than-seven">6 C<li>
-<li id="Li10" class="not-spade black not-face number odd not-greater-than-six greater-than-four">5 C<li>
-<li id="Li11" class="not-spade black not-face number not-greater-than-five even greater-than-three">4 C<li> 
-<li id="Li12" class="not-spade black not-face number odd not-greater-than-six not-greater-than-four">3 C<li>
-<li id="Li13" class="not-spade black not-face number not-greater-than-five even not-greater-than-three">2 C<li> 
+<li id="Li1" class="not-spade black not-face not-number ace">A-C<li>
+<li id="Li2" class="not-spade black face-card not-number not-ace male king">K-C<li>
+<li id="Li3" class="not-spade black face-face not-number not-ace not-male">Q-C<li> 
+<li id="Li4" class="not-spade black face-card not-number not-ace male not-king">J-C<li>
+<li id="Li5" class="not-spade black not-face number even greater-than-five greater-than-seven greater-than-nine">10-C<li>
+<li id="Li6" class="not-spade black not-face number odd greater-than-six greater-than-eight">9-C<li>
+<li id="Li7" class="not-spade black not-face number even greater-than-five greater-than-seven not-greater-than-nine">8-C<li> 
+<li id="Li8" class="not-spade black not-face number odd greater-than-six not-greater-than-eight">7-C<li>
+<li id="Li9" class="not-spade black not-face number even greater-than-five not-greater-than-seven">6-C<li>
+<li id="Li10" class="not-spade black not-face number odd not-greater-than-six greater-than-four">5-C<li>
+<li id="Li11" class="not-spade black not-face number not-greater-than-five even greater-than-three">4-C<li> 
+<li id="Li12" class="not-spade black not-face number odd not-greater-than-six not-greater-than-four">3-C<li>
+<li id="Li13" class="not-spade black not-face number not-greater-than-five even not-greater-than-three">2-C<li> 
   </ul>
 
 <ul>
-<li id="Li14" class="hearts red not-face not-number ace">A H<li>
-<li id="Li15" class="hearts red face-card not-number not-ace male king">K H<li>
-<li id="Li16" class="hearts red face-face not-number not-ace not-male">Q H<li> 
-<li id="Li17" class="hearts red face-card not-number not-ace male not-king">J H<li>
-<li id="Li18" class="hearts red not-face number even greater-than-five greater-than-seven greater-than-nine">10 H<li>
-<li id="Li19" class="hearts red not-face number odd greater-than-six greater-than-eight">9 H<li>
-<li id="Li20" class="hearts red not-face number even greater-than-five greater-than-seven not-greater-than-nine">8 H<li> 
-<li id="Li21" class="hearts red not-face number odd greater-than-six not-greater-than-eight">7 H<li>
-<li id="Li22" class="hearts red not-face number even greater-than-five not-greater-than-seven">6 H<li>
-<li id="Li23" class="hearts red not-face number odd not-greater-than-six greater-than-four">5 H<li>
-<li id="Li24" class="hearts red not-face number not-greater-than-five even greater-than-three">4 H<li> 
-<li id="Li25" class="hearts red not-face number odd not-greater-than-six not-greater-than-four">3 H<li>
-<li id="Li26" class="hearts red not-face number not-greater-than-five even not-greater-than-three">2 H<li> 
+<li id="Li14" class="hearts red not-face not-number ace">A-H<li>
+<li id="Li15" class="hearts red face-card not-number not-ace male king">K-H<li>
+<li id="Li16" class="hearts red face-face not-number not-ace not-male">Q-H<li> 
+<li id="Li17" class="hearts red face-card not-number not-ace male not-king">J-H<li>
+<li id="Li18" class="hearts red not-face number even greater-than-five greater-than-seven greater-than-nine">10-H<li>
+<li id="Li19" class="hearts red not-face number odd greater-than-six greater-than-eight">9-H<li>
+<li id="Li20" class="hearts red not-face number even greater-than-five greater-than-seven not-greater-than-nine">8-H<li> 
+<li id="Li21" class="hearts red not-face number odd greater-than-six not-greater-than-eight">7-H<li>
+<li id="Li22" class="hearts red not-face number even greater-than-five not-greater-than-seven">6-H<li>
+<li id="Li23" class="hearts red not-face number odd not-greater-than-six greater-than-four">5-H<li>
+<li id="Li24" class="hearts red not-face number not-greater-than-five even greater-than-three">4-H<li> 
+<li id="Li25" class="hearts red not-face number odd not-greater-than-six not-greater-than-four">3-H<li>
+<li id="Li26" class="hearts red not-face number not-greater-than-five even not-greater-than-three">2-H<li> 
   </ul>
 
 
 
 <ul>
-<li id="Li27" class="not-heart red not-face not-number ace">A D<li>
-<li id="Li28" class="not-heart red face-card not-number not-ace male king">K D<li>
-<li id="Li29" class="not-heart red face-face not-number not-ace not-male">Q D<li> 
-<li id="Li30" class="not-heart red face-card not-number not-ace male not-king">J D<li>
-<li id="Li31" class="not-heart red not-face number even greater-than-five greater-than-seven greater-than-nine">10 D<li>
-<li id="Li32" class="not-heart red not-face number odd greater-than-six greater-than-eight ">9 D<li>
-<li id="Li33" class="not-heart red not-face number greater-than-five even greater-than-seven not-greater-than-nine">8 D<li> 
-<li id="Li34" class="not-heart red not-face number odd greater-than-six not-greater-than-eight">7 D<li>
-<li id="Li35" class="not-heart red not-face number greater-than-five even not-greater-than-seven">6 D<li>
-<li id="Li36" class="not-heart red not-face number odd not-greater-than-six greater-than-four">5 D<li>
-<li id="Li37" class="not-heart red not-face number not-greater-than-five even greater-than-three">4 D<li> 
-<li id="Li38" class="not-heart red not-face number odd not-greater-than-six not-greater-than-four">3 D<li>
-<li id="Li39" class="not-heart red not-face number not-greater-than-five even not-greater-than-three">2 D<li> 
+<li id="Li27" class="not-heart red not-face not-number ace">A-D<li>
+<li id="Li28" class="not-heart red face-card not-number not-ace male king">K-D<li>
+<li id="Li29" class="not-heart red face-face not-number not-ace not-male">Q-D<li> 
+<li id="Li30" class="not-heart red face-card not-number not-ace male not-king">J-D<li>
+<li id="Li31" class="not-heart red not-face number even greater-than-five greater-than-seven greater-than-nine">10-D<li>
+<li id="Li32" class="not-heart red not-face number odd greater-than-six greater-than-eight ">9-D<li>
+<li id="Li33" class="not-heart red not-face number greater-than-five even greater-than-seven not-greater-than-nine">8-D<li> 
+<li id="Li34" class="not-heart red not-face number odd greater-than-six not-greater-than-eight">7-D<li>
+<li id="Li35" class="not-heart red not-face number greater-than-five even not-greater-than-seven">6-D<li>
+<li id="Li36" class="not-heart red not-face number odd not-greater-than-six greater-than-four">5-D<li>
+<li id="Li37" class="not-heart red not-face number not-greater-than-five even greater-than-three">4-D<li> 
+<li id="Li38" class="not-heart red not-face number odd not-greater-than-six not-greater-than-four">3-D<li>
+<li id="Li39" class="not-heart red not-face number not-greater-than-five even not-greater-than-three">2-D<li> 
   </ul>
-  
-<h3 id="question">Is your card Black?</h3>
+  </h2>
+<h2 id="question">Is your card Black?</h2>
 </ br>
 </ br>
 <!--buttons for Javascript -->
