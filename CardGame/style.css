@@ -1,6 +1,7 @@
+
 body  {
 	text-align: center;
-	padding: 10%;
+	padding: 5%;
 	border-style: solid;
 	border-color: white;
 	border-weight: 10px;
@@ -12,11 +13,11 @@ body  {
 .btn  {
 	visibility: hidden;
 	color: black;
-border: solid;
-border-color: black;
-border-width: 2px;
-font-weight: bold;
-background-color: #CFD1D1;
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	font-weight: bold;
+	background-color: #CFD1D1;
 }
 
 #isBlackButton, #notBlackButton  {
@@ -46,9 +47,15 @@ div  {
 }
 .red, .black  {
 	text-shadow: 1.5px 1.5px 2px #BBBCBD;
+	font-family: serif;
+	font-family: New Times Roman;
+	font-family: Droid-Serif;
 }
 
 #Name  {
-	padding-bottom: 2%;
+	padding-bottom: 2.5%;
 	text-shadow: 1.5px 1.5px 2px #555657;
+	font-family: serif;
+	font-family: New Times Roman;
+	font-family: Droid-Serif;
 }
