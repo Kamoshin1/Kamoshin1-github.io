@@ -1,3 +1,10 @@
+body  {
+	text-align: center;
+	padding: 10%;
+    	
+}
+
+
 .btn  {
 	visibility: hidden;
 }
@@ -10,6 +17,9 @@ ul li {
 	display: inline;
 }
 
-body  {
-	margin: auto; 20%;
+
+
+div  {
+	background: #277714;
+	font-weight: 900;
 }
