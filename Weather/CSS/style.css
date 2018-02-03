@@ -1,0 +1,110 @@
+.whole {
+    background: url("http://www.ie-wallpapers.com/data/out/216/36763595-sunny-image.jpg") no-repeat;
+    background-color: lightblue;
+    background-size: cover;
+    background-position: center center;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    visibility: hidden;
+    
+}
+#whole-page {
+    background-attachment: fixed;
+}
+
+#h1 {
+    margin-top: 5%;
+    visibility: visible;
+    font-family: 'Russo One', sans-serif;
+    font-weight:300;
+}
+
+#weather-data {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: grey;
+    opacity: 0.8;
+    color: black;
+    border: 5px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.day {
+    /*background: url("http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/1-charlotte-skyline-full-moon-gregory-hurst.jpg") no-repeat;*/
+    background: url("https://i2.wp.com/d3m7xw68ay40x8.cloudfront.net/assets/2017/01/13163146/Cordelia-park.jpg?ssl=1") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+    color: white;
+}
+
+.night {
+    background: url("http://images.fineartamerica.com/images/artworkimages/mediumlarge/1/1-charlotte-skyline-full-moon-gregory-hurst.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: black;
+    color: yellow;
+}
+
+
+#Weather {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: lightgoldenrodyellow;
+
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    min-width: 100px;
+    padding: 2%, 0%;
+    border: solid;
+    padding-bottom: 2%;
+    background-color: grey;
+    opacity: 0.8;
+    font-weight: bold;
+    border-radius: 5%;
+}
+
+#change-temp-type {
+    margin-bottom: 3%;
+}
+
+#Zip-Code {
+    border: solid;
+    border-color: black;
+    margin-bottom: 3%;
+    color: black;
+    padding: 2%;
+    width: 55px;
+}
+
+.night-buttons {
+    border: solid;
+    border-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+.check-message {
+    visibility: visible;
+}
+
+.day-buttons {
+    border: solid;
+    border-color: black;
+    color: black;
+    font-weight: bold;
+}
+
+.btn {
+    opacity: 0.8;
+}
