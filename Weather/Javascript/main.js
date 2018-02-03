@@ -28,7 +28,7 @@ var tempStringFFull
 
 function getWeatherByCoordinates(latitude, longitude) {
     
-    var fullURL = "https://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&APPID=75ed54453a6e806917cfa439b3fb1dd9&units=imperial";
+    var fullURL = "http://api.openweathermap.org/data/2.5/weather?lat=" + latitude + "&lon=" + longitude + "&APPID=75ed54453a6e806917cfa439b3fb1dd9&units=imperial";
 
     $.getJSON(fullURL, function (data) {
         
@@ -94,7 +94,7 @@ var zipCode = document.getElementById("Zip-Code");
 
 
 function getWeatherByZip()  {
-    var fullURL = "https://api.openweathermap.org/data/2.5/weather?zip=" + zipCode.value + "&APPID=75ed54453a6e806917cfa439b3fb1dd9&units=imperial";
+    var fullURL = "http://api.openweathermap.org/data/2.5/weather?zip=" + zipCode.value + "&APPID=75ed54453a6e806917cfa439b3fb1dd9&units=imperial";
 
     $.getJSON(fullURL, function (data) {
 
