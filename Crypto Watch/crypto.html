@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+     <link href="https://fonts.googleapis.com/css?family=Poppins|Russo+One" rel="stylesheet">  
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+   <body>
+    <div id="whole-page">
+    <h1>Crypto Currency Market Watch</h1>
+
+    <h3 id="time">Last Updated</h3>
+    <table align="center" id="crypto-table" >
+      <thead id="crypto-table-header">
+        <tr>
+          <th id="crypto-type"> Currency Name</th>
+          <th id="current-price">Current Value</th>
+          <th id="percent-change">% Change in last 24 hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="bitcoin-row">
+          <td>Bitcoin (BTC)</td>
+          <td id="bitcoin-current-price">?</td>
+          <td id="bitcoin-percent-change">?</td>
+        </tr>
+        <tr>
+          <td>Ethereum (ETH)</td>
+          <td id="ethereum-current-price">?</td>
+          <td id="ethereum-percent-change">?</td>
+        </tr>
+        <tr id="litecoin-row">
+          <td>Litecoin (LTC)</td>
+          <td id="litecoin-current-price">?</td>
+          <td id="litecoin-percent-change">?</td>
+        </tr>
+      </tbody>
+    </table>   
+
+
+       <h3>View another crypto currency</h3>
+       <form>
+           <select name="more-crypto" id="additional-value">
+               <option>Select One</option>
+               <option value="bitcoin-cash">Bitcoin Cash</option>
+               <option value="cardano">Cardano</option>
+               <option value="ripple">Ripple</option>
+               <option value="stellar">Stellar</option>
+               <option value="verge">Verge</option>
+           </select>
+           <input id="view-additional-currency" type="button" class="btn" value="View" />
+       </form>
+       <div id="additional-crypto" class="hidden">
+       <h3 id="last-updated-additional">DATE/TIME</h3>
+        <h5>* Will not update automatically. Click View again to refresh.</h5>
+       <table align="center" >
+           <thead>
+               <tr>
+                   <td>Currency Name</td>
+                   <td>Current Value</td>
+                   <td>% Change in last 24 hours</td>
+               </tr>
+            </thead>
+           <tbody>
+               <tr id="additional-row">
+                   <td id="additional-currency-name">?</td>
+                   <td id="additional-currency-value">?</td>
+                   <td id="additional-currency-percent-change">?</td>
+                </tr>
+           </tbody>
+       </table>
+       </div>
+</div>
+<script src="javascript/main.js"></script>
+</body>
+</html>
