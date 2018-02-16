@@ -36,7 +36,7 @@ table, th, td {
 table  {
     min-width: 85%;
     max-width: 99%;
-    font-size: 300%;
+    font-size: 300%; 
     text-align: center;
 }
 
@@ -61,7 +61,7 @@ body  {
     border: 5px solid black;
     max-width: 100%;
     min-width: 400px;
-    margin-top: 3%;
+    
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;  
@@ -81,12 +81,13 @@ body  {
     padding-bottom: 1.5%;
     padding-left: 0.5%;
     padding-right: 0.5%;
+    font-weight: bold;
 }
 
 #additional-value {
     min-width: 50%;
     text-align: center;  
-    font-size: 200%;
+    font-size: 300%; 
     height: 65px;
     border: 1px solid black;
     padding-bottom: 0px;
@@ -95,8 +96,8 @@ body  {
 }
 
 #view-additional-currency  {
-    height: 65px; 
-    color: red;
+    height: 75px; 
+    color: white;
     margin: auto;
     text-align: center;
     vertical-align: middle;
@@ -105,8 +106,8 @@ body  {
     
 }
 
-form  {
+/*form  {
     border: solid;
     border-color: white;
     
-}    
+}    */
