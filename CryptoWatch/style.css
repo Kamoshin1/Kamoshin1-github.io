@@ -1,8 +1,8 @@
 
 #crypto-table  {
-    padding: 50px;
-    border-radius: 15%;
-    background-color: #d2b48c;
+    padding: 0.5%;
+    
+    
 }
 
 
@@ -33,6 +33,11 @@ table, th, td {
     
 }
 
+tr  {
+    border: 3px solid black;
+    text-align: center;
+}
+
 
 .hidden  {
     visibility: hidden;
@@ -42,19 +47,20 @@ table, th, td {
 thead  {
     background-color: green;
     color: white;
+    
     font-weight: bold;   /* not working for some reason */
 }
 
 body  {
     text-align: center;
-    border: solid;
-    max-width: 800px;
-    min-width: 400px;
+    border: 5px solid black;
+    max-width: 650px;
+    min-width: 300px;
     margin-top: 3%;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;  
-    padding: 3%;
+    padding: 1.5%;
     background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SImAn91gin31gtxk/videoblocks-bitcoins-falling-on-pile-cryptocurrency-digital-internet-money-3d-background-bitcoin-currency-gaining-or-losing-value-fluctuation_bhmhxbmwz_thumbnail-full01.png"); 
    /*   background-size: cover;
      
@@ -64,8 +70,10 @@ body  {
 }
 
 #whole-page  {
-    background-color: white;
-    border: 50px solid grey;
-    padding: 3%;
-    
+    background-color: lightgray;
+    border: 5px solid green;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
 }
