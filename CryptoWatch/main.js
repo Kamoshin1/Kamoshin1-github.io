@@ -288,4 +288,5 @@ function additionalCurrencyChange()  {
 var viewButton = document.getElementById("view-additional-currency");
 viewButton.addEventListener('click', getAdditionalURL, false);
 
+viewBitcoinCash();
 

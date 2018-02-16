@@ -46,11 +46,6 @@ tr  {
 }
 
 
-.hidden  {
-    visibility: hidden;
-}
-
-
 thead  {
     background-color: green;
     color: white;
@@ -105,6 +100,8 @@ body  {
 
     
 }
+
+
 
 /*form  {
     border: solid;
