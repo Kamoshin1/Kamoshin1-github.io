@@ -1,10 +1,11 @@
 
 #crypto-table  {
     padding: 0.5%;
-    
-    
 }
 
+#crypto-table-header  {
+    text-align: center;
+}
 
 .percent-increase {
     color: green;
@@ -27,13 +28,16 @@
 table, th, td {
     
     border: 3px solid black;
-    padding: 3px;    
+    padding: 3px;
+    text-align: center;
+    vertical-align: middle;    
 }
 
 table  {
     min-width: 75%;
     max-width: 99%;
     font-size: 200%;
+    text-align: center;
 }
 
 tr  {
@@ -50,14 +54,12 @@ tr  {
 thead  {
     background-color: green;
     color: white;
-    
-    font-weight: bold;   /* not working for some reason */
 }
 
 body  {
     text-align: center;
     border: 5px solid black;
-    max-width: 650px;
+    max-width: 800px;
     min-width: 400px;
     margin-top: 3%;
     margin-right: auto;
@@ -80,3 +82,30 @@ body  {
     padding-left: 0.5%;
     padding-right: 0.5%;
 }
+
+#additional-value {
+    min-width: 50%;
+    text-align: center;  
+    font-size: 200%;
+    height: 40px;
+    border: 1px solid black;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+
+#view-additional-currency  {
+    height: 40px; 
+    color: red;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+
+    
+}
+
+form  {
+    border: solid;
+    
+}    
