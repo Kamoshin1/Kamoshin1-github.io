@@ -34,9 +34,9 @@ table, th, td {
 }
 
 table  {
-    min-width: 75%;
+    min-width: 85%;
     max-width: 99%;
-    font-size: 200%;
+    font-size: 300%;
     text-align: center;
 }
 
