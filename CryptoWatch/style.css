@@ -59,7 +59,7 @@ thead  {
 body  {
     text-align: center;
     border: 5px solid black;
-    max-width: 800px;
+    max-width: 100%;
     min-width: 400px;
     margin-top: 3%;
     margin-right: auto;
@@ -87,7 +87,7 @@ body  {
     min-width: 50%;
     text-align: center;  
     font-size: 200%;
-    height: 40px;
+    height: 65px;
     border: 1px solid black;
     padding-bottom: 0px;
     margin-bottom: 0px;
@@ -95,7 +95,7 @@ body  {
 }
 
 #view-additional-currency  {
-    height: 40px; 
+    height: 65px; 
     color: red;
     margin: auto;
     text-align: center;
