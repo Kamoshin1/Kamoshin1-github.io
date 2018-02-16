@@ -75,7 +75,7 @@ function bitcoinChange() {
         bitcoinPercentStr = "+ " + bitcoinPercentStr;
         bitcoinPercentChange.textContent = bitcoinPercentStr;
     }
-    else if (bitcoinPercentNum === 0) {
+    else if (bitcoinPercentNum == 0) {
         $("#bitcoin-percent-change").removeClass("percent-increase");
         $("#bitcoin-percent-change").removeClass("percent-decrease");
         bitcoinPercentStr = bitcoinPercentStr;
@@ -84,7 +84,7 @@ function bitcoinChange() {
     else {
         $("#bitcoin-percent-change").removeClass("percent-increase");
         $("#bitcoin-percent-change").addClass("percent-decrease");
-        bitcoinPercentStr = "- " + bitcoinPercentStr;
+        
         bitcoinPercentChange.textContent = bitcoinPercentStr;
     };
 };
@@ -96,7 +96,7 @@ function ethereumChange() {
         ethereumPercentStr = "+ " + ethereumPercentStr;
         ethereumPercentChange.textContent = ethereumPercentStr;
     }       
-    else if (ethereumPercentNum === 0) {
+    else if (ethereumPercentNum == 0) {
         $("#ethereum-percent-change").removeClass("percent-increase");
         $("#ethereum-percent-change").removeClass("percent-decrease");
         ethereumPercentChange.textContent = ethereumPercentStr;
@@ -104,7 +104,7 @@ function ethereumChange() {
     else {
         $("#ethereum-percent-change").removeClass("percent-increase");
         $("#ethereum-percent-change").addClass("percent-decrease");
-        ethereumPercentStr = "- " + ethereumPercentStr;
+        
         ethereumPercentChange.textContent = ethereumPercentStr;
     };
 };
@@ -116,7 +116,7 @@ function litecoinChange() {
         litecoinPercentStr = "+ " + litecoinPercentStr;
         litecoinPercentChange.textContent = litecoinPercentStr;
     }
-    else if (litecoinPercentNum === 0) {
+    else if (litecoinPercentNum == 0) {
         $("#litecoin-percent-change").removeClass("percent-increase");
         $("#litecoin-percent-change").removeClass("percent-decrease");
         litecoinPercentChange.textContent = litecoinPercentStr;
@@ -124,7 +124,7 @@ function litecoinChange() {
     else {
         $("#litecoin-percent-change").removeClass("percent-increase");
         $("#litecoin-percent-change").addClass("percent-decrease");
-        litecoinPercentStr = "- " + litecoinPercentStr;
+        
         litecoinPercentChange.textContent = litecoinPercentStr;
     };
 };
@@ -272,7 +272,7 @@ function additionalCurrencyChange()  {
         additionalPercentChangeStr = "+ " + additionalPercentChangeStr;
         additionalCurrencyPercentChange.textContent = additionalPercentChangeStr;
     }
-    else if (additionalCurrencyPercentNum === 0) {
+    else if (additionalCurrencyPercentNum == 0) {
         $("#additional-currency-percent-change").removeClass("percent-increase");
         $("#additional-currency-percent-change").removeClass("percent-decrease");
         additionalCurrencyPercentChange.textContent = additionalPercentChangeStr;
@@ -280,7 +280,7 @@ function additionalCurrencyChange()  {
     else {
         $("#additional-currency-percent-change").removeClass("percent-increase");
         $("#additional-currency-percent-change").addClass("percent-decrease");
-        additionalPercentChangeStr = "- " + additionalPercentChangeStr;
+        
         additionalCurrencyPercentChange.textContent = additionalPercentChangeStr;
     };
 };
