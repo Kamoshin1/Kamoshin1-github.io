@@ -60,12 +60,15 @@ body  {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;  
-    padding: 1.5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top:  auto;
+    padding-bottom:  auto;
     background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/SImAn91gin31gtxk/videoblocks-bitcoins-falling-on-pile-cryptocurrency-digital-internet-money-3d-background-bitcoin-currency-gaining-or-losing-value-fluctuation_bhmhxbmwz_thumbnail-full01.png"); 
     
      
     background-position: center center;  
-    font-weight: bold;
+   /* font-weight: bold; */
     
 }
 
@@ -80,14 +83,15 @@ body  {
 }
 
 #additional-value {
-    min-width: 25%;
+    min-width: 30%;
     text-align: center; 
     font-size: 300%; 
     height: 65px;
-    border: 1px solid black;
+    border: 3px solid black;
     padding-bottom: 0px;
     margin-bottom: 0px;
     vertical-align: middle; 
+    
 
 }
 
@@ -97,8 +101,10 @@ body  {
     margin: auto;
     text-align: center;
     vertical-align: middle;
-    border: 1px solid black;
+    border: 3px solid black;
     min-width: 15%;
+    background-color: green;
+    margin-left: 3%;
     
 }
 
@@ -112,8 +118,10 @@ body  {
 
 .four-size  {
     font-size: 400%;
+    font-weight: bold;
 }
 
 .double-size  {
     font-size: 200%
+    font-weight: bold;
 }
