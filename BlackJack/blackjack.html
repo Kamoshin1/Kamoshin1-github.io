@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+    
+</head>
+   <body>
+    <div id="whole-page">
+        <h2 id="dealer-cards">Dealer's Cards</h2>
+        <h3 id="dealer-total"class="inline">Dealer Total</h3>
+        <h3 class = "inline">Pot $</h3>
+        <h3 id="pot" class="inline"></h3>
+        <h3 id="pot-two-label" class="inline hide">Pot 2 $</h3>
+        <h3 id="pot-two" class="inline hide"></h3>
+          <div id="dealer-cards-container">
+            <ul>
+                <li id="dealer-first-card" class="inline card-back-single hide"></li>
+                <li id="dealer-first-card-value" class="inline"></li>
+                <li id="dealer-second-card" class="inline"></li>
+                <li id="dealer-second-card-value" class="inline"></li>
+                <li id="dealer-third-card" class="inline"></li>
+                <li id="dealer-fourth-card" class="inline" ></li>
+                <li id="dealer-fifth-card" class="inline" ></li>
+                <li id="dealer-sixth-card" class="inline" ></li>
+            </ul>   
+          </div>   
+        <div class="container"> 
+            <!--class ="card-back">-->
+            <div id="top-card" class="card-back"></div>
+            <div id="second-card" class="card-back"></div>
+            <div id="third-card" class="card-back"></div>
+            <div id="fourth-card" class="card-back"></div>
+            <div id="fifth-card" class="card-back"></div>
+        </div>  
+        <h2 id="your-cards">Your Cards</h2>
+        <h3 id="message"></h3>
+            <ul>
+                <li id="your-first-card"></li>
+                <li id="first-card-value"></li>
+                <li id="your-second-card"></li>
+                <li id="second-card-value"></li>
+                <li id="your-third-card"></li>
+                <li id="your-fourth-card"></li>
+                <li id="your-fifth-card"></li>
+                <li id="your-sixth-card"></li>
+            </ul>
+                <h3 id="second-hand"></h3>
+            <ul>
+                <li id="second-hand-first-card"></li>
+                <li id="second-hand-second-card"></li>
+                <li id="second-hand-third-card"></li>
+                <li id="second-hand-fourth-card"></li>
+                <li id="second-hand-fifth-card"></li>
+                <li id="second-hand-sixth-card"></li>
+
+            </ul>
+
+        <h3 id="your-total">Your Total</h3>
+        <button id="hit-button" class="btn hide">HIT</button>
+        <button id="hold-button" class="btn hide">HOLD</button>
+        <button id="split-button" class="btn hide">SPLIT</button>
+        <button id="double-down-button" class="btn hide">DOUBLEDOWN</button>
+        <button id="deal-button" class="btn">DEAL</button>
+        <div id="bank">
+             <h2 id="bankroll">Bankroll</h2>   
+             <h3 id="dollar-symbol" class="inline">$</h3>
+             <h3 id="balance" class="inline"></h3>
+        </div>
+        <audio id="dealing-card-sound" src="dealingCard.wav" preload="none"></audio>
+    </div>
+<script src="Tuesday.js"></script>
+</body>
+</html>
