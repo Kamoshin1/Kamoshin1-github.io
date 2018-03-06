@@ -329,7 +329,7 @@ margin: auto;
 top: 0; left: 0; bottom: 0; right: 0;
     */
     background-color: #c3c6cc;
-  /*  background: url("cardImages/argyle-background.png"); */
+    background: url("cardImages/argyle-background.png"); 
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -354,7 +354,7 @@ li  {
 	right: 0;
 	margin-right: 1%;
 	margin-bottom: 5%;
-	color: red;
+
 }
 
 #bank  {
@@ -399,17 +399,14 @@ tr	{
 #container  {
 	float: left;
 	display: inline;
-	/*position: absolute;  */
-/*	min-height: 200px;  */
 	max-width: 100%;  
 	min-width: 80%;
     	margin-left: 2%;
-    /*	margin-right: 44%; */
+    
 	text-align: center;
-	/* min-width: 10px;  */
-/*	max-height: 75%;
-	min-height: 75%;	*/
-	border-color: blue;
+
+
+
 	margin-top: -10%;  
 }
 
@@ -486,7 +483,7 @@ tr	{
 #your-cards	{
 	width: 100%;
 	position: relative;
-	margin-top: 150px;
+/*	margin-top: 150px;  */
 
 }
 
@@ -591,4 +588,8 @@ dealer-fifth-card  {
 }
 .relative	{
 	position: relative;
+}
+footer	{
+	font-size: 28px;
+	color: black;
 }
