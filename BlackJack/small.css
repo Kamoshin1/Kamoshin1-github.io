@@ -322,10 +322,12 @@
 }
 
 .big  {
-position: absolute;
+   margin-top: 25%;
+   margin-bottom: 25%;
+/* position: absolute;
 margin: auto;
 top: 0; left: 0; bottom: 0; right: 0;
-    
+    */
     background-color: #42eef4;
     background: url("cardImages/argyle-background.png");
     background-size: cover;
@@ -468,11 +470,19 @@ tr	{
 	font-size: 30px;
 }
 
-p	{
+#dealer-total, #your-cards, #second-hand, #your-total	{
 	font-size: 24px;
 }
 
-
+#page-title		{
+	font-size: 36px;
+}
+#your-cards	{
+	width: 100%;
+}
+#your-first-card, #your-second-card, #your-third-card, #your-fourth-card, #your-fifth-card, #your-sixth-card	{
+	width: 100px;
+}
 
 
 
