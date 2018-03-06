@@ -502,27 +502,27 @@ tr	{
 #your-first-card  {
 /*	z-index: 0; */
 	position: relative;	
-	width: 15%;
+	width: 18%;
 	margin: auto;
 }
 #your-second-card  {
 /*	z-index: 1;	*/
 /*	margin-left: 20px;	*/
 	position: relative;
-	width:15%;
+	width: 18%;
 	
 }
 #your-third-card  {
-	z-index: 2;
-	margin-left: 40px;	
-	position: absolute;
-	display: inline;
+/*	z-index: 2;
+		*/
+	position: relative;
+	width: 18%
 	
 }
 #your-fourth-card  {
-	z-index: 3;
-	margin-left: 60px;	
-	position: absolute;
+	/* z-index: 3;
+	margin-left: 60px;	*/
+	position: relative;
 	
 }
 #your-fifth-card  {
@@ -555,6 +555,7 @@ tr	{
 	
 	
 }
+/*
 #dealer-second-card  {
 	z-index: 1;
 	margin-left: 17%;	
@@ -565,7 +566,7 @@ tr	{
 	z-index: 2;
 	margin-left: 17%;
 	display: inline;	
-/*	position: absolute; */
+	position: absolute; 
 	
 }
 #your-fourth-card  {
@@ -585,7 +586,7 @@ tr	{
 	margin-left: 17%;	
 	position: absolute;
 	
-}
+}*/
 #your-total	{
 	margin-top: 25%;
 }
