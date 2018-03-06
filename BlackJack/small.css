@@ -328,8 +328,8 @@
 margin: auto;
 top: 0; left: 0; bottom: 0; right: 0;
     */
-    background-color: #42eef4;
-    background: url("cardImages/argyle-background.png");
+    background-color: #c3c6cc;
+  /*  background: url("cardImages/argyle-background.png"); */
     background-size: cover;
     height: 100%;
     width: 100%;
