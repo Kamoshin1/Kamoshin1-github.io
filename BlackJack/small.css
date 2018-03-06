@@ -322,8 +322,8 @@
 }
 
 .big  {
-   margin-top: 10%;
-   margin-bottom: 10%;
+   margin-top: 5%;
+   margin-bottom: 5%;
 /* position: absolute;
 margin: auto;
 top: 0; left: 0; bottom: 0; right: 0;
@@ -366,7 +366,7 @@ li  {
 	margin-right: 1%;
 	background: white;
 	width: 25%;
-	font-size: 32px;
+	font-size: 38px;
 	font-weight: bold;
 }
 
@@ -380,7 +380,7 @@ li  {
 	position: absolute;
 	right: 0;
 	margin-right: 1%;
-	font-size: 32px;
+	font-size: 38px;
 	font-weight: bold;
 	background: white;
 	width: 25%;
