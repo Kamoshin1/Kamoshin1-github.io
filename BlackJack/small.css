@@ -322,8 +322,10 @@
 }
 
 .big  {
-    margin-top: auto;
-    margin-bottom: auto;
+position: absolute;
+margin: auto;
+top: 0; left: 0; bottom: 0; right: 0;
+    
     background-color: #42eef4;
     background: url("cardImages/argyle-background.png");
     background-size: cover;
@@ -331,6 +333,7 @@
     width: 100%;
     text-align: center;
     border-color: red;
+   /* -webkit-transform: translate(-50%, -50%);  */
 }
 
 #whole-page  {
@@ -458,7 +461,7 @@ tr	{
 
 #hit-button, #hold-button, #double-down-button, #split-button, #deal-button	{
 	border-color: black;
-	color: redk;
+	color: white;
 	border-width: 3px;
 	border-radius: 100px;
 	font-weight: bold;
