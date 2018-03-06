@@ -374,6 +374,9 @@ li  {
 	padding-bottom: 2%;
 	padding-right: 10%;
 	padding-left: 10%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 #pots-table 	{
@@ -471,6 +474,9 @@ tr	{
 	font-size: 36px;
 	margin-top: 6%;
 	padding: 5%;
+	display: block;
+	width: 100%;
+
 }
 
 #dealer-total, #your-cards, #second-hand, #your-total	{
@@ -519,7 +525,7 @@ tr	{
 
 #your-third-card  {
 	position: relative;
-	width: 18%	
+	width: 18%;	
 }
 
 #your-fourth-card  {
