@@ -330,6 +330,7 @@
     height: 100%;
     width: 100%;
     text-align: center;
+    border-color: red;
 }
 
 #whole-page  {
@@ -457,7 +458,7 @@ tr	{
 
 #hit-button, #hold-button, #double-down-button, #split-button, #deal-button	{
 	border-color: black;
-	color: black;
+	color: redk;
 	border-width: 3px;
 	border-radius: 100px;
 	font-weight: bold;
