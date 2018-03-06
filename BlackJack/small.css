@@ -327,8 +327,8 @@
     background-color: #42eef4;
     background: url("cardImages/argyle-background.png");
     background-size: cover;
-    height: 667px;
-    width: 375px;
+    height: 100%;
+    width: 100%;
     text-align: center;
 }
 
