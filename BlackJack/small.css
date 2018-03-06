@@ -467,22 +467,65 @@ tr	{
 	border-width: 3px;
 	border-radius: 100px;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 36px;
 }
 
 #dealer-total, #your-cards, #second-hand, #your-total	{
-	font-size: 24px;
+	font-size: 48px;
 }
 
 #page-title		{
-	font-size: 36px;
+	font-size: 72px;
 }
 #your-cards	{
 	width: 100%;
-}
-#your-first-card, #your-second-card, #your-third-card, #your-fourth-card, #your-fifth-card, #your-sixth-card	{
-	width: 100px;
+	margin: auto;
 }
 
-
-
+#your-first-hand  {
+	height: 200px;
+	position: absolute;
+	down: 25%;
+	left: 50%;
+	-webkit-transform: tranlateX(-50%);
+	transform: translate(-50%)
+	
+}
+#your-first-card  {
+	z-index: 0;
+	position: absolute;
+	
+}
+#your-second-card  {
+	z-index: 1;
+	margin-left: 17%;	
+	position: relative;
+	
+}
+#your-third-card  {
+	z-index: 2;
+	margin-left: 17%;	
+	position: relative;
+	
+}
+#your-fourth-card  {
+	z-index: 3;
+	margin-left: 17%;	
+	position: relative;
+	
+}
+#your-fifth-card  {
+	z-index: 4;
+	margin-left: 17%;	
+	position: relative;
+	
+}
+#your-sixth-card  {
+	z-index: 4;
+	margin-left: 17%;	
+	position: relative;
+	
+}
+#your-total	{
+	margin-top: 25%;
+}
