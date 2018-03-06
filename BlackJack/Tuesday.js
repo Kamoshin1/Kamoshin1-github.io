@@ -1153,7 +1153,7 @@ function startNewHand() {
     dealerFifthCard.textContent = "";
     dealerSixthCard.textContent = "";
     yourTotalDisplay.textContent = "Your Total";
-    dealerTotalDisplay.textContent = "Dealer Total"; 
+    dealerTotalDisplay.textContent = "Dealer's Cards"; 
     message.textContent = "";
 
     bankroll = bankroll - 100;
@@ -1412,7 +1412,7 @@ function dealerTurn() {
         getDealerTotal();
         
 
-        if (dealerHand.length > 1) {
+        if (dealerHand.length == 2) {
             showDealerFirstCard();
             $("#dealer-first-card").removeClass("card-back-single").fadeIn(750);
             dealerTotalDisplay.textContent = "Dealer Total is " + dealerTotal;
@@ -1782,3 +1782,7 @@ function cardSound(num) {
     dealingCardSound.play();
     //});
 };
+
+$(document).ready(function () {
+    startNewHand();
+});
