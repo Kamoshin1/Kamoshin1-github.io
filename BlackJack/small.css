@@ -480,12 +480,17 @@ tr	{
 }
 #your-cards	{
 	width: 100%;
-	margin: auto;
+	position: relative;
+	margin-top: 150px;
+
 }
 
 #your-first-hand  {
+	display: inline;
+	border-color: red;
+
 	height: 200px;
-	position: absolute;
+/*	position: relative;	*/
 	down: 25%;
 	left: 50%;
 	-webkit-transform: tranlateX(-50%);
@@ -495,20 +500,72 @@ tr	{
 	
 }
 #your-first-card  {
-	z-index: 0;
-	position: absolute;
-	
+/*	z-index: 0; */
+	position: relative;	
+	width: 15%;
+	margin: auto;
 }
 #your-second-card  {
-	z-index: 1;
-	margin-left: 17%;	
+/*	z-index: 1;	*/
+/*	margin-left: 20px;	*/
 	position: relative;
+	width:15%;
 	
 }
 #your-third-card  {
 	z-index: 2;
+	margin-left: 40px;	
+	position: absolute;
+	display: inline;
+	
+}
+#your-fourth-card  {
+	z-index: 3;
+	margin-left: 60px;	
+	position: absolute;
+	
+}
+#your-fifth-card  {
+	z-index: 4;
+	margin-left: 80px;	
+	position: absolute;
+	
+}
+#your-sixth-card  {
+	z-index: 5;
+	margin-left: 100px;	
+	position: absolute;
+	
+}
+#dealer-hand  {
+	height: 200px;
+	position: absolute;
+	down: 25%;
+	left: 38%;
+	-webkit-transform: tranlateX(-50%);
+	transform: translate(-50%)
+	-webkit-transform: translate3d(0,0,1px);
+	transform: translate3d(0,0,1px);
+	margin-bottom: 200px;
+	
+}
+#dealer-first-card  {
+	z-index: 0;
+	position: absolute;
+	
+	
+}
+#dealer-second-card  {
+	z-index: 1;
 	margin-left: 17%;	
 	position: absolute;
+	
+}
+#your-third-card  {
+	z-index: 2;
+	margin-left: 17%;
+	display: inline;	
+/*	position: absolute; */
 	
 }
 #your-fourth-card  {
@@ -531,4 +588,10 @@ tr	{
 }
 #your-total	{
 	margin-top: 25%;
+}
+.absolute	{
+	position: absolute;
+}
+.relative	{
+	position: relative;
 }
