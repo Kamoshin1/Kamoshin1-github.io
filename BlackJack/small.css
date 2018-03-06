@@ -418,27 +418,32 @@ tr	{
 	z-index: 0;
 	margin-left: 1%;
 	margin-top: 1%;
+	width: 18%;
 	
 }
 #second-card  {
 	z-index: 1;
 	margin-left: 0.8%;
 	margin-top:  0.8%;
+	width: 18%;
 }
 #third-card  {
 	z-index: 2;
 	margin-left: 0.6%;
 	margin-top: 0.6%;
+	width: 18%;
 }
 #fourth-card  {
 	z-index: 3;
 	margin-left: 0.4%;
 	margin-top: 0.4%;
+	width: 18%;
 }
 #fifth-card  {
 	z-index: 4;
 	margin-left: 0.2%;
 	margin-top: 0.2%;
+	width: 18%;
 }
 
 #dealer-cards-container {
@@ -520,28 +525,24 @@ tr	{
 	
 }
 #your-fourth-card  {
-	/* z-index: 3;
-	margin-left: 60px;	*/
 	position: relative;
+	width: 18%;
 	
 }
 #your-fifth-card  {
-	z-index: 4;
-	margin-left: 80px;	
-	position: absolute;
+	position: relative;
+	width: 18%;
 	
 }
 #your-sixth-card  {
-	z-index: 5;
-	margin-left: 100px;	
-	position: absolute;
-	
+	position: relative;
+	width: 18%;
 }
 #dealer-hand  {
 	height: 200px;
-	position: absolute;
-	down: 25%;
-	left: 38%;
+
+
+	left: 50%;
 	-webkit-transform: tranlateX(-50%);
 	transform: translate(-50%)
 	-webkit-transform: translate3d(0,0,1px);
@@ -550,44 +551,39 @@ tr	{
 	
 }
 #dealer-first-card  {
-	z-index: 0;
-	position: absolute;
+	
+	position: relative;
+	width: 18%;
 	
 	
 }
-/*
+
 #dealer-second-card  {
-	z-index: 1;
-	margin-left: 17%;	
-	position: absolute;
+	position: relative;
+	width: 18%;
 	
 }
-#your-third-card  {
-	z-index: 2;
-	margin-left: 17%;
-	display: inline;	
-	position: absolute; 
+#dealer-third-card  {
+	position: relative;
+	width: 18%;
 	
 }
-#your-fourth-card  {
-	z-index: 3;
-	margin-left: 17%;	
-	position: absolute;
+#dealer-fourth-card  {
+	position: relative;
+	width: 18%;
 	
 }
-#your-fifth-card  {
-	z-index: 4;
-	margin-left: 17%;	
-	position: absolute;
+dealer-fifth-card  {
+	position: relative;
+	width: 18%;
 	
 }
-#your-sixth-card  {
-	z-index: 5;
-	margin-left: 17%;	
-	position: absolute;
+#dealer-sixth-card  {
+	position: relative;
+	width: 18%;
 	
-}*/
-#your-total	{
+}
+#dealer-total	{
 	margin-top: 25%;
 }
 .absolute	{
