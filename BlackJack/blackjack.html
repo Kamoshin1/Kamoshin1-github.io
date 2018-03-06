@@ -5,28 +5,29 @@
     <meta charset="utf-8" />
     <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
     <link rel="stylesheet" media="screen and (min-width: 0px)" href="small.css" type="text/css" />
-    <link rel="stylesheet" media="screen and (min-width: 1000px)" href="medium.css" type="text/css" />
-    <link rel="stylesheet" media="screen and (min-width: 1500px)" href="large.css" type="text/css" />
+    <link rel="stylesheet" media="screen and (min-width: 800px)" href="medium.css" type="text/css" />
+    <!--<link rel="stylesheet" media="screen and (min-width: 1500px)" href="large.css" type="text/css" />-->
+    <link href="https://fonts.googleapis.com/css?family=Arvo:700|Bevan|Paytone+One" rel="stylesheet"> 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
     <title>Black Jack</title>
 </head>
    <body class="big">
-       <div id="page-title">Black Jack</div>
+       <div id="page-title">BLACKJACK</div>
     <div id="whole-page">
                 <table id="pots-table" >
             <tr>
                 <td>Pot $</td>
-                <td id="pot"></td>
+                <td id="pot">400</td>
             </tr>
             <tr>
-                <td id="pot-two-label" class="inline hide">Pot 2 $</td>
-                <td id="pot-two" class="inline hide"></td>
+                <td id="pot-two-label" class="hide">Pot 2 $</td>
+                <td id="pot-two" class="hide">400</td>
             </tr>
         </table>
         <p id="dealer-total" class="inline">Dealer's Cards</p>
           <div>
-            <ul>
+            <ul id="dealer-hand">
                 <li id="dealer-first-card" class="inline card-back-single hide"></li>
                 <li id="dealer-first-card-value" class="inline"></li>
                 <li id="dealer-second-card" class="inline"></li>
@@ -47,12 +48,12 @@
         </div>
 
         <p id="your-cards">Your Cards</p>
-            <ul id="your-first-hand">
+            <ul id="your-first-hand" class="inline">
                 <li id="your-first-card"></li>
                 <li id="first-card-value"></li>
                 <li id="your-second-card"></li>
                 <li id="second-card-value"></li>
-                <li id="your-third-card"></li>
+                <li id="your-third-card" class="inline"></li>
                 <li id="your-fourth-card"></li>
                 <li id="your-fifth-card"></li>
                 <li id="your-sixth-card"></li>
@@ -64,7 +65,7 @@
         </div> 
                 <h3 id="second-hand"></h3>
             <ul>
-                <li id="second-hand-first-card"></li>
+                <li id="second-hand-first-card" class="absolute"></li>
                 <li id="second-hand-second-card"></li>
                 <li id="second-hand-third-card"></li>
                 <li id="second-hand-fourth-card"></li>
@@ -74,15 +75,16 @@
             </ul>
         <p id="your-total">Your Total</p>
         <div id="buttons-group"">
-            <button id="hit-button" class="btn btn-block btn-lg hide btn-success">HIT</button>
-            <button id="hold-button" class="btn btn-block btn-lg hide btn-danger">HOLD</button>
-            <button id="split-button" class="btn btn-block hide btn-lg btn-primary">SPLIT</button>
-            <button id="double-down-button" class="btn btn-block btn-lg hide btn-warning">DOUBLEDOWN</button>
-            <button id="deal-button" class="btn btn-block btn-lg btn-primary">DEAL</button>
+            <button id="hit-button" class="btn btn-block btn-lg hide">HIT</button>
+            <button id="hold-button" class="btn btn-block btn-lg hide">HOLD</button>
+            <button id="split-button" class="btn btn-block hide btn-lg">SPLIT</button>
+            <button id="double-down-button" class="btn btn-block btn-lg hide">DOUBLE DOWN</button>
+            <button id="deal-button" class="btn btn-block btn-lg">DEAL</button>
         </div>
         <footer>
-            <p>Created by <a href="mailto:robert.j.halperin@gmail.com">Robert Halperin</a></p>
-            <p><a href="https://www.bicyclecards.com/how-to-play/blackjack/" target="_blank">Blackjack Rules</a></p>
+            <p class="inline">Created by <a href="mailto:robert.j.halperin@gmail.com">Robert Halperin</a></p>
+            <p class="inline">  |  </p>
+            <p class="inline"><a href="https://www.bicyclecards.com/how-to-play/blackjack/" target="_blank">Blackjack Rules</a></p>
         </footer>
         <audio id="dealing-card-sound" src="dealingCard.wav" preload="none"></audio>
     </div>

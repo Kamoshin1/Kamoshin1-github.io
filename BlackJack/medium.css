@@ -468,6 +468,87 @@ p	{
 }
 
 
+	width: 18%;
+	
+}
 
+#second-hand-sixth-card  {
+	position: relative;
+	width: 18%;
+}
+
+#dealer-hand  {
+	height: 200px;
+	left: 50%;
+	-webkit-transform: tranlateX(-50%);
+	transform: translate(-50%)
+	-webkit-transform: translate3d(0,0,1px);
+	transform: translate3d(0,0,1px);
+	margin-bottom: 200px;
+	
+}
+#dealer-first-card  {	
+	position: relative;
+		
+}
+
+#dealer-second-card  {
+	position: relative;
+	
+	
+}
+#dealer-third-card  {
+	position: relative;
+	/*  width: 18%;  */
+	
+}
+#dealer-fourth-card  {
+	position: relative;
+	/* width: 18%;  */
+	
+}
+dealer-fifth-card  {
+	position: relative;
+	/* width: 18%;  */
+	
+}
+#dealer-sixth-card  {
+	position: relative;
+	/* width: 18%;   */
+	z-index: 1;
+}
+#dealer-total	{
+	margin-top: 25%;
+}
+.absolute	{
+	position: absolute;
+}
+.relative	{
+	position: relative;
+}
+footer	{
+	font-size: 28px;
+	color: black;
+}
+
+#hit-button	{
+	background-color: #2dc937;
+}
+
+#hold-button	{
+	background-color: #cc3232;
+}
+
+#double-down-button   {
+	background-color: #e7b416;
+}
+
+#split-button	{
+	background-color: #dd550c;
+}
+
+#deal-button	{
+	background-color: #4169e1;
+}
 
 

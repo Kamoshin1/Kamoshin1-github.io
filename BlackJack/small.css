@@ -324,17 +324,15 @@
 .big  {
    margin-top: 5%;
    margin-bottom: 5%;
-/* position: absolute;
-margin: auto;
-top: 0; left: 0; bottom: 0; right: 0;
-    */
     background-color: #c3c6cc;
-    background: url("cardImages/argyle-background.png"); 
-    background-size: cover;
+ /*   background: url("cardImages/argyle-background.png");   
+background-image: -webkit-linear-gradient(#c3c6cc, #FFFFFF) ; */
+    background-position: center;
     height: 100%;
     width: 100%;
     text-align: center;
-    border-color: red;
+    font-weight: bold;
+font-family:  sans-serif;
    /* -webkit-transform: translate(-50%, -50%);  */
 }
 
@@ -351,9 +349,12 @@ li  {
 
 #message	{
 	position: absolute;
+	z-index: 9;
 	right: 0;
 	margin-right: 1%;
 	margin-bottom: 5%;
+	font-size: 32px;
+	font-weight: bold;
 
 }
 
@@ -369,8 +370,10 @@ li  {
 }
 
 #buttons-group  {
-	padding: 10%;
-
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-right: 10%;
+	padding-left: 10%;
 }
 
 #pots-table 	{
@@ -386,6 +389,7 @@ li  {
 }
 tr	{
 	border: 5px solid green;
+	text-align: right;
 }
 
 .hide  {
@@ -401,13 +405,9 @@ tr	{
 	display: inline;
 	max-width: 100%;  
 	min-width: 80%;
-    	margin-left: 2%;
-    
+    	margin-left: 2%;    
 	text-align: center;
-
-
-
-	margin-top: -10%;  
+	margin-top: -25%;  
 }
 
 #top-card  {
@@ -465,7 +465,7 @@ tr	{
 #hit-button, #hold-button, #double-down-button, #split-button, #deal-button	{
 	border-color: black;
 	color: white;
-	border-width: 3px;
+	border-width: 5px;
 	border-radius: 100px;
 	font-weight: bold;
 	font-size: 36px;
@@ -479,48 +479,49 @@ tr	{
 
 #page-title		{
 	font-size: 72px;
+	font-family: 'Bevan', serif;
+	text-shadow:
+		-1px -1px 0 #FFF,
+		1px -1px 0 #FFF,
+		-1px 1px 0 #FFF,
+		1px 1px 0 #FFF;
 }
 #your-cards	{
 	width: 100%;
 	position: relative;
-/*	margin-top: 150px;  */
+	margin-top: -14%; 
 
 }
 
 #your-first-hand  {
 	display: inline;
 	border-color: red;
-
 	height: 200px;
-/*	position: relative;	*/
 	down: 25%;
 	left: 50%;
 	-webkit-transform: tranlateX(-50%);
 	transform: translate(-50%)
 	-webkit-transform: translate3d(0,0,1px);
-	transform: translate3d(0,0,1px);
-	
+	transform: translate3d(0,0,1px);	
 }
+
 #your-first-card  {
-/*	z-index: 0; */
 	position: relative;	
 	width: 18%;
 	margin: auto;
 }
+
 #your-second-card  {
-/*	z-index: 1;	*/
-/*	margin-left: 20px;	*/
 	position: relative;
 	width: 18%;
 	
 }
+
 #your-third-card  {
-/*	z-index: 2;
-		*/
 	position: relative;
-	width: 18%
-	
+	width: 18%	
 }
+
 #your-fourth-card  {
 	position: relative;
 	width: 18%;
@@ -531,14 +532,47 @@ tr	{
 	width: 18%;
 	
 }
+
 #your-sixth-card  {
 	position: relative;
 	width: 18%;
 }
+
+#second-hand-first-card  {
+	position: relative;	
+	width: 18%;
+	margin: auto;
+}
+
+#second-hand-second-card  {
+	position: relative;
+	width: 18%;
+	
+}
+
+#second-hand-third-card  {
+	position: relative;
+	width: 18%	
+}
+
+#second-hand-fourth-card  {
+	position: relative;
+	width: 18%;
+	
+}
+#second-hand-fifth-card  {
+	position: relative;
+	width: 18%;
+	
+}
+
+#second-hand-sixth-card  {
+	position: relative;
+	width: 18%;
+}
+
 #dealer-hand  {
 	height: 200px;
-
-
 	left: 50%;
 	-webkit-transform: tranlateX(-50%);
 	transform: translate(-50%)
@@ -547,12 +581,9 @@ tr	{
 	margin-bottom: 200px;
 	
 }
-#dealer-first-card  {
-	
+#dealer-first-card  {	
 	position: relative;
-	width: 18%;
-	
-	
+	width: 18%;	
 }
 
 #dealer-second-card  {
@@ -578,7 +609,7 @@ dealer-fifth-card  {
 #dealer-sixth-card  {
 	position: relative;
 	width: 18%;
-	
+	z-index: 1;
 }
 #dealer-total	{
 	margin-top: 25%;
@@ -592,4 +623,24 @@ dealer-fifth-card  {
 footer	{
 	font-size: 28px;
 	color: black;
+}
+
+#hit-button	{
+	background-color: #2dc937;
+}
+
+#hold-button	{
+	background-color: #cc3232;
+}
+
+#double-down-button   {
+	background-color: #e7b416;
+}
+
+#split-button	{
+	background-color: #dd550c;
+}
+
+#deal-button	{
+	background-color: #4169e1;
 }
