@@ -327,9 +327,8 @@
     background-color: #42eef4;
     background: url("cardImages/argyle-background.png");
     background-size: cover;
-    max-height: 100%;
- /*  max-width: 98%;
-    min-width: 75%;   */
+    height: 100%;
+    width: 100%;
     text-align: center;
 }
 
@@ -461,8 +460,9 @@ tr	{
 	border-color: black;
 	color: black;
 	border-width: 3px;
-	border-radius: 25px;
+	border-radius: 100px;
 	font-weight: bold;
+	font-size: 30px;
 }
 
 p	{
