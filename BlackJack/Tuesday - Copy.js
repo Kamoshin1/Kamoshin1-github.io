@@ -136,7 +136,7 @@ var tempAceObj10 = jQuery.extend(true, {}, aceCardObj);
 
 
 function dealCardToYou() {
-    dealingCardSound.play();
+    //dealingCardSound.play();
     var i = Math.floor(Math.random() * (deckCardTotal-1));
     cardNumber = sixDeckArray[i];
     if (deckCardTotal == 0) {
@@ -188,8 +188,8 @@ function dealCardToYou() {
 };
 
 function dealCardSecondHand() {
-    dealingCardSound.currentTime = 0;
-    dealingCardSound.play();
+    //dealingCardSound.currentTime = 0;
+    //dealingCardSound.play();
     var i = Math.floor(Math.random() * (deckCardTotal - 1));
     cardNumber = sixDeckArray[i];
     if (deckCardTotal == 0) {
@@ -245,7 +245,7 @@ var dealerSixthCard = document.getElementById("dealer-sixth-card");
 
 
 function dealCardToDealer() {
-    dealingCardSound.play();
+    //dealingCardSound.play();
     var i = Math.floor(Math.random() * (deckCardTotal - 1));
     cardNumber = sixDeckArray[i];
     if (deckCardTotal == 0) {
@@ -1162,7 +1162,7 @@ function startNewHand() {
     $("#pot-two").addClass("hide");
     $("#pot-two-label").addClass("hide");
     $("#deal-button").addClass("hide");
-    cardSound(4);
+    //cardSound(4);   //comment in this code along with the function to add audio
     dealCardToYou();
     $("#your-first-card").hide().fadeIn(750);
     //cardSound();
@@ -1763,22 +1763,24 @@ function split() {
 
 $("#split-button").click(split);
 
-var dealingCardSound = document.getElementById("dealing-card-sound");
+//Code to add card dealing sound
 
-var num;
-function cardSound(num) {
-    //for (num = 4; num > 0; num--) {
-    dealingCardSound.addEventListener('ended', function () {
-        num = num - 1;
-        if (num > 0) {
-            dealingCardSound.currenTime = 0;
-            dealingCardSound.play()
-        };
+//var dealingCardSound = document.getElementById("dealing-card-sound");
 
-    }, false);
-    dealingCardSound.play();
-    //});
-};
+//var num;
+//function cardSound(num) {
+//    //for (num = 4; num > 0; num--) {
+//    dealingCardSound.addEventListener('ended', function () {
+//        num = num - 1;
+//        if (num > 0) {
+//            dealingCardSound.currenTime = 0;
+//            dealingCardSound.play()
+//        };
+
+//    }, false);
+//    dealingCardSound.play();
+//    //});
+//};
 
 $(document).ready(function () {
     startNewHand();
