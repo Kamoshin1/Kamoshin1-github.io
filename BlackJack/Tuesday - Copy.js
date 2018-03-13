@@ -1720,7 +1720,7 @@ function split() {
         yourHand[0].isAce = true;
         yourHand[0].cardValue += 10
     };
-    cardSound(2);
+    //cardSound(2);
     $("#pot-two").removeClass("hide");
     $("#pot-two-label").removeClass("hide");
     bankroll = bankroll - 100;
