@@ -1,0 +1,46 @@
+body, h1, h3{
+      background-color: #03244d;
+      text-align: center;
+      
+      
+    }
+#title {
+    color: #dd550c;
+    font-family: "Ultra", serif;
+    font-weight: bold;
+}   
+    
+
+   
+
+body {
+    background-image: url("../AU-small-4.png");
+    
+}
+
+#map  {
+  width: 90%;
+  height: 90%;
+
+  border-color: black;
+  border-width: 5px;
+  margin: auto;
+  margin-top: 2%;
+}
+#spacer  {
+  margin: 2%;
+}
+
+#seating-chart  {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+#ticket-link  {
+    background-color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color:  #03244d;
+}

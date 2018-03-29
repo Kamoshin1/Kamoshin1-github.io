@@ -1,9 +1,10 @@
 <html>
   <head>
-    <title>AP Poll</title> 
+    <title>Stadium</title> 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="ap_poll.css" />
+    <link rel="stylesheet" href="stadium.css" />
+    
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -14,6 +15,11 @@
   ga('send', 'pageview');
 
 </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBSBArLmOXLCyG5_JEl9n6jNxIJdjQFF8w&callback=initMap" async defer></script>
+      <script src="Javascript.js" type="text/javascript"></script>
+     
+
+      
     </head>
   <body>
   <nav class="nav navbar-inverse navbar-fixed-top">
@@ -25,17 +31,24 @@
     <ul class="nav navbar-nav">
       <li><a href="../index.html">Home</a></li>
       <li><a href="../Schedule/index.html">Schedule</a></li>
-      <li><a class="active" href="#">AP Poll</a></li>   
+      <li><a href="../AP Poll/index.html">AP Poll</a></li>   
       <li><a href="../SEC Standings/index.html">SEC Standings</a></li>
       <li><a href="../Roster/index.html">Roster</a></li>
-      <li><a href="../Stadium/index.html">Stadium</a></li>
+      <li><a class="active" href="#">Stadium</a></li>
       <li><a href="../Fight Song/index.html">Fight Song</a></li>   
       <li><a href="../Highlights/index.html">Highlights</a></li> 
     </ul>
    </div>
   </nav>
 
- <h1 id="title"> AP Top 25</h1>
-  <iframe src="http://collegefootball.ap.org/poll"></iframe> 
+ <h1 id="title">Jordan-Hare Stadium</h1>
+   <a href="http://www.auburntigers.com/aubtix/football.html" target="_blank" id="ticket-link">Get tickets to Auburn Football games.</a>
+  <div id="map">
+  </div>
+ 
+      <div id="spacer"></div>
+
+      <img id="seating-chart" src="seatingchart.jpg" alt="Seating Chart" />
+
   </body>
 </html>

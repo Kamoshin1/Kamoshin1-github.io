@@ -1,0 +1,59 @@
+body, h1, h3 {
+      background-color: #03244d;
+      text-align: center;
+      
+      
+      
+    }
+#title {
+    color: #dd550c;
+    font-family: "Ultra", serif;
+    font-weight: bold;
+}   
+    
+
+   
+iframe  {
+    display: block;
+    margin: 0px auto 30px auto;  
+    border-color: #dd550c;
+    border-width: 5px;
+   }
+
+body {
+    background-image: url("../AU-small-4.png");
+    
+}
+
+#outer  {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    border-color: #dd550c;
+    border-width: 5px;
+}
+
+h3   {
+    margin: 1px;
+    font-family: "Ultra", serif;
+    font-weight: bold;
+    color: #dd550c;
+}
+
+#tip  {
+    background-color: #FFF;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+p     {
+    max-width: 600px;
+    color: #03244d;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+

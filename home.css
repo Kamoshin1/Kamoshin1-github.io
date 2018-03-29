@@ -1,0 +1,76 @@
+
+body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("AU-small-4.png");
+
+  /*  margin: 0px, 20px, 0px, 20px; */
+    
+}
+/*
+.container  {
+    
+    background-color: #fffbf9;
+}
+*/
+#myCarousel  a{
+    background-color: #DDD;
+}
+
+#myCarousel  {
+        border-color: #F26522;
+    border-width: 5px;
+}
+
+
+/* body, h1, h3 {
+     background-color: blue; */
+     
+    
+
+#title {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: #dd550c;
+    text-shadow: -2px 0 #03244d, 0 2px #03244d, 2px 0 #03244d, 0 -2px #03244d;
+    font-family: "Ultra", serif;
+}
+#tagline {
+    position:relative;
+    top: 60%;
+    text-align: center;
+    color: #dd550c;
+    
+    text-shadow: -2px 0 #03244d, 0 2px #03244d, 2px 0 #03244d, 0 -2px #03244d;
+    font-size: 150%;
+    font-weight: bold;
+    
+}
+
+h1 {
+    font-size: 250%;
+    
+}
+
+#main-logo  {
+    height: 70%;
+    width:  70%;
+    text-align: center;
+   
+  }
+
+
+/*
+#HeaderPic  {
+  height: 30.1%;
+  width: 100%;
+  margin: 0px auto;
+}
+*/
+
+.glyphicon  {
+    color: black;
+}
